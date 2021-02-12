@@ -13,6 +13,9 @@
 		8A3597DD25D6D59400D1CD8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3597DB25D6D59400D1CD8C /* Main.storyboard */; };
 		8A3597DF25D6D59600D1CD8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3597DE25D6D59600D1CD8C /* Assets.xcassets */; };
 		8A3597E225D6D59600D1CD8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3597E025D6D59600D1CD8C /* LaunchScreen.storyboard */; };
+		8A3597EB25D6D5D300D1CD8C /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3597EA25D6D5D300D1CD8C /* QuizViewController.swift */; };
+		8A3597EE25D6D5E100D1CD8C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3597ED25D6D5E100D1CD8C /* ResultViewController.swift */; };
+		8A3597F125D6D68200D1CD8C /* zoomlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A3597F025D6D68200D1CD8C /* zoomlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8A3597DE25D6D59600D1CD8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3597E125D6D59600D1CD8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A3597E325D6D59600D1CD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3597EA25D6D5D300D1CD8C /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		8A3597ED25D6D5E100D1CD8C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8A3597F025D6D68200D1CD8C /* zoomlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zoomlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		8A3597D425D6D59400D1CD8C /* Quiz on Swift */ = {
 			isa = PBXGroup;
 			children = (
+				8A3597F025D6D68200D1CD8C /* zoomlogo.png */,
 				8A3597D525D6D59400D1CD8C /* AppDelegate.swift */,
 				8A3597D725D6D59400D1CD8C /* SceneDelegate.swift */,
 				8A3597D925D6D59400D1CD8C /* ViewController.swift */,
@@ -63,6 +70,8 @@
 				8A3597DE25D6D59600D1CD8C /* Assets.xcassets */,
 				8A3597E025D6D59600D1CD8C /* LaunchScreen.storyboard */,
 				8A3597E325D6D59600D1CD8C /* Info.plist */,
+				8A3597EA25D6D5D300D1CD8C /* QuizViewController.swift */,
+				8A3597ED25D6D5E100D1CD8C /* ResultViewController.swift */,
 			);
 			path = "Quiz on Swift";
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3597E225D6D59600D1CD8C /* LaunchScreen.storyboard in Resources */,
+				8A3597F125D6D68200D1CD8C /* zoomlogo.png in Resources */,
 				8A3597DF25D6D59600D1CD8C /* Assets.xcassets in Resources */,
 				8A3597DD25D6D59400D1CD8C /* Main.storyboard in Resources */,
 			);
@@ -137,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3597EE25D6D5E100D1CD8C /* ResultViewController.swift in Sources */,
 				8A3597DA25D6D59400D1CD8C /* ViewController.swift in Sources */,
 				8A3597D625D6D59400D1CD8C /* AppDelegate.swift in Sources */,
 				8A3597D825D6D59400D1CD8C /* SceneDelegate.swift in Sources */,
+				8A3597EB25D6D5D300D1CD8C /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
